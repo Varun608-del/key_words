@@ -39,3 +39,19 @@ A network is a system that connects multiple devices, allowing them to communica
 *   **WIDE AREA NETWORK(WAN)**->A network that covers a city or a large campus. MANs are often used by municipalities or large organizations to connect multiple buildings or sites within a city.
 
 *   **VIRTUAL PRIVATE NETWORK(VPN)**->A network that uses encryption and other techniques to provide secure access to a private network over a public network, like the Internet. VPNs are used to protect sensitive data and allow remote users to access resources securely.
+
+# 4.OSIMODEL(7 LAYERS)->
+The OSI (Open Systems Interconnection) model is a conceptual framework used to understand and standardize the functions of a network system into seven distinct layers.
+**1. PHYSICAL LAYER->** Deals with the physical aspects of network communication. It involves the transmission and reception of raw binary data (0s and 1s) over physical media such as cables, fibers, or radio waves.
+
+**2. DATA LINK LAYER->** Handles node-to-node data transfer and manages error detection and correction from the Physical layer. It ensures that data packets are correctly formatted for transmission and that errors during transmission are detected and corrected.
+
+**3. NETWORK LAYER->** Manages data routing, forwarding, and addressing across multiple networks. It determines the best path for data to travel from the source to the destination.
+
+**4. TRANSPORT LAYER->**Ensures reliable data transfer between devices. It manages data flow control, error recovery, and retransmission.
+
+**5. SESSION LAYER->** Manages and controls the sessions between applications. It establishes, maintains, and terminates connections.
+
+**6. PRESENTATION LAYER->**Translates, encrypts, and compresses data for the application layer. It ensures that data is presented in a format that the application layer can understand.
+
+**7. APPLICATION LAYER->**Provides network services directly to end-user applications. It is the closest layer to the end user and interacts with software applications. 
