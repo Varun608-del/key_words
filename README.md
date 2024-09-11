@@ -1,7 +1,7 @@
 
 # key_words
 
-1.**COMPUTING**
+# 1.**COMPUTING**
 * CPU(CENTRAL PROCESSING UNIT)->The CPU, or Central Processing Unit, is often referred to as the "brain" of a computer. It's the primary component responsible for executing instructions from programs and managing the operations of the computer.
   
 * GPU(GRAPHIC PROCESSING UNIT)->The GPU, or Graphics Processing Unit, is a specialized processor designed to accelerate the rendering of images and video. It’s optimized for handling the complex calculations required for graphics rendering, making it crucial for visual output in computers, gaming consoles, and mobile devices.
@@ -10,7 +10,7 @@
   
 * TPU(TENSOR PROCESSING UNIT)->A TPU, or Tensor Processing Unit, is a type of specialized hardware designed by Google specifically for accelerating machine learning and artificial intelligence (AI) workloads. TPUs are optimized for processing tensors, which are multidimensional arrays used extensively in machine learning models.
 
-2.**operating system**
+# 2.**operating system**
 
 An operating system (OS) is the software that manages a computer's hardware and software resources and provides common services for computer programs.
 It's essentially the backbone of a computer system, enabling users to interact with the hardware and run applications.
@@ -27,7 +27,7 @@ It's essentially the backbone of a computer system, enabling users to interact w
 
 * **LINUX**->Linux is a widely-used open-source operating system kernel that serves as the foundation for many operating systems, commonly referred to as Linux distributions or distros.
 
-3.**NETWORK**
+# 3.**NETWORK**
 A network is a system that connects multiple devices, allowing them to communicate with each other and share resources.
 
 **TYPES OF NETWORK**
@@ -77,3 +77,16 @@ An IP address (Internet Protocol address) is a unique numerical label assigned t
 
 * **PRIVATE IP**
   An IP address used within a private network that is not routable on the internet. It is used to identify devices within a local network.
+
+# 8.HYPERVISER
+A hypervisor is a type of virtualization software that allows multiple virtual machines (VMs) to run on a single physical host. It provides an abstraction layer between the hardware and the virtual machines, enabling efficient resource allocation and management.
+
+**TYPES OF HYPERVISOR**
+1. Type 1 Hypervisor (Bare-Metal):Runs directly on the physical hardware of the host machine. It does not require an underlying operating system.
+2. Type 2 Hypervisor (Hosted): Runs on top of a conventional operating system (the host OS) and relies on the host OS for hardware access.
+
+# 9.VIRTUAL MACHINE->
+A virtual machine (VM) is a software-based emulation of a physical computer. It runs an operating system and applications just like a physical computer but does so within a virtualized environment created by a hypervisor. 
+
+# 10.GENERAL DATA PROTECTION REGULATION->
+It is a comprehensive data protection law in the European Union (EU). It sets out to protect the privacy and personal data of individuals within the EU and the European Economic Area (EEA). 
