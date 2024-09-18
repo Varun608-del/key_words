@@ -89,4 +89,73 @@ A hypervisor is a type of virtualization software that allows multiple virtual m
 A virtual machine (VM) is a software-based emulation of a physical computer. It runs an operating system and applications just like a physical computer but does so within a virtualized environment created by a hypervisor. 
 
 # 10.GENERAL DATA PROTECTION REGULATION->
-It is a comprehensive data protection law in the European Union (EU). It sets out to protect the privacy and personal data of individuals within the EU and the European Economic Area (EEA). 
+It is a comprehensive data protection law in the European Union (EU). It sets out to protect the privacy and personal data of individuals within the EU and the European Economic Area (EEA)0. 
+
+# 11.DNS(Domain Name System)
+DNS stands for Domain Name System. It functions like a phone book for the internet, translating human-friendly domain names (like www.example.com) into IP addresses (like 192.0.2.1) that computers use to identify each other on the network.
+Here's a simple breakdown of how DNS works:
+
+1.Request: When you type a web address into your browser, a DNS request is made to find the corresponding IP address for that domain name.
+2.Resolution: The DNS system then looks up the IP address associated with that domain name. This process involves several steps:
+
+   Recursive Resolver: : Your request first goes to a DNS resolver, which is often provided by your ISP. This resolver tries to find the IP address for the domain name.
+  Root Name Servers: If the resolver doesn't have the address cached, it queries one of the root name servers, which point to the appropriate top-level domain (TLD) name servers.
+  
+  TLD Name Servers: The TLD servers then direct the resolver to the authoritative name servers for the specific domain.
+  Authoritative Name Servers: These servers have the actual IP address for the domain and respond to the resolver with this information.
+
+  # 15.VPN(Virtual Private Network)
+  A VPN, or Virtual Private Network, is a service that creates a secure, encrypted connection over aless secure network, such as the internet. It allows you to access the internet as if you were connected to a private network, providing privacy and security. Here's how it works and why you might use it:
+ 
+  1.Encryption:When you connect to a VPN, your internet traffic is encrypted, meaning that the data you send and receive is scrambled and unreadable to anyone who might intercept it. This helps protect your data from hackers, especially on public Wi-Fi networks.
+
+  2.IP Masking: A VPN hides your real IP address and replaces it with one from the VPN server. This can make it harder for websites, advertisers, and other parties to track your online activities and identify your location.
+
+  3.Secure Access: VPNs provide secure access to your network resources, which can be useful for businesses allowing remote employees to connect to internal systems securely.
+
+  # 16.FRONTEND,BACKEND AND API(Application Programming Interface)
+  In web development, the terms frontend, backend, and API refer to different aspects of building and   managing applications. Here’s a breakdown of each:
+
+   # FRONTEND:
+       Frontend refers to the client-side of a web application. It encompasses everything that users interact with directly in their web browsers. This includes:
+            -Design and Layout: The visual aspects of a website or application, including the layout,colors, fonts, and images.
+            -User Interface (UI): The components that users interact with, such as buttons, forms, and navigation menus.
+            -Technologies: Frontend development primarily involves languages and frameworks like HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. Frameworks and libraries like React, Angular, and Vue.js are commonly used to build interactive and dynamic user interfaces.
+
+ # BACKEND:
+      Backend refers to the server-side of a web application. It involves everything that happens on the server and is responsible for managing and processing data. Key aspects include:
+                 --Server: The hardware or software that provides services, resources, or data to other computers over a network.
+                 --Database: Where data is stored, retrieved, and managed. Common databases include MySQL, PostgreSQL, and MongoDB.
+                 --Server-Side Logic: The code that runs on the server, handling requests from the frontend, processing data, and sending responses. This includes server-side languages like Python, Ruby, Java, PHP, and Node.js.
+                 --Authentication: Managing user login, registration, and security.
+API.
+
+# API:
+    API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. APIs can be used to:
+
+        --Connect Frontend and Backend: APIs often serve as the bridge between the frontend (client-side) and backend (server-side). For instance, when you submit a form on a website, the frontend sends a request to the backend via an API, which processes the request and sends back a response.
+        --Access External Services: APIs enable applications to interact with third-party services or data sources. For example, a weather app might use an API to fetch weather data from an external weather service.
+        --Standardize Communication: APIs provide a standardized way for different software components or systems to interact, regardless of their underlying technology.
+
+  REST (Representational State Transfer)and GraphQL are common API design styles. REST APIs use HTTP requests to interact with resources, while GraphQL allows clients to request specific data and aggregate results from multiple sources.
+
+
+ # NIC (Network Interface Card)
+
+    NIC stands for Network Interface Card. It's a hardware component that allows a computer or other devices to connect to a network. Here’s a quick rundown:
+     -- Function: NICs facilitate communication between a computer and a network. They handle the process of sending and receiving data packets over the network, making it possible for the device to access network resources, such as the internet or shared files.   
+
+  #TYPES:
+   --Wired NICs:These connect via Ethernet cables and are typically used in local area networks (LANs). They are often built into the motherboard of a computer but can also be installed as a separate expansion card.
+
+   --Wireless NICs: These connect via Wi-Fi and allow devices to connect to wireless networks. They are commonly found in laptops and some desktop computers, and can also be installed as a separate card or USB adapter.
+
+   --Components: A NIC typically includes a network port (like an Ethernet port for wired connections), and sometimes LEDs that indicate network activity and connection status. Inside, it has a chip that handles data transmission and reception.
+
+   --Configuration: NICs usually come with drivers that need to be installed on the computer. These drivers allow the operating system to communicate with the NIC and configure it correctly.
+
+   --Speed: NICs come in various speeds, such as 10/100/1000 Mbps (Gigabit Ethernet) for wired connections, and support various Wi-Fi standards for wireless connections (e.g., 802.11n, 802.11ac, or the newer 802.11ax).
+
+   
+    
+         
