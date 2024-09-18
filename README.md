@@ -156,6 +156,58 @@ API.
 
    --Speed: NICs come in various speeds, such as 10/100/1000 Mbps (Gigabit Ethernet) for wired connections, and support various Wi-Fi standards for wireless connections (e.g., 802.11n, 802.11ac, or the newer 802.11ax).
 
+# INTERNET PACKET
+    An Internet packet, often just called a "packet," is a small unit of data transmitted over a network. When you send or receive information over the Internet, it is broken down into packets to ensure efficient and reliable delivery. Here’s a breakdown of what an Internet packet typically involves:
+
+# Components of an Internet Packet:
+
+   1.Header:
+
+       --Source IP Address: The address of the device that is sending the packet.
+       --Destination IP Address: The address of the device that is receiving the packet.
+       --Sequence Number: This helps in reassembling the packets in the correct order, as packets can arrive out of sequence.
+       --Protocol Information: Specifies the protocol being used, such as TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
+       --Checksum: A value used for error-checking to ensure the data hasn’t been corrupted during transmission.
+
+   2.Payload:
+          This is the actual data being transmitted, such as part of an email, a webpage, or a file. It’s the content that the packet carries from the sender to the receiver.
+
+
+# AWS (Amazon Web Service):
+    Amazon Web Services (AWS) is a comprehensive and widely adopted cloud computing platform provided by Amazon. It offers a broad range of cloud services, including computing power, storage options, and databases, among others, all delivered over the internet. AWS allows individuals and organizations to use these resources on a pay-as-you-go basis, which means you only pay for what you use.
+
+# CORE SERVICES:
+     1.Compute Services:
+          --Amazon EC2 (Elastic Compute Cloud):
+               Provides resizable virtual servers (instances) that can be used for a variety of applications.
+          --AWS Lambda: Allows you to run code in response to events without provisioning or managing servers (serverless computing).
+          --Amazon ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service):
+          Manage containerized applications using Docker and Kubernetes.
+
+     2.Storage Services:
+          --Amazon S3 (Simple Storage Service):
+               Scalable object storage for storing and retrieving any amount of data.
+          --Amazon EBS (Elastic Block Store): Provides block-level storage volumes for use with EC2 instances.
+          --Amazon Glacier: Low-cost cloud storage service for data archiving and long-term backup.
+
+     3.Database Services:
+         --Amazon RDS (Relational Database Service): Managed relational database service supporting multiple database engines (MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server).
+         --Amazon DynamoDB: Managed NoSQL database service designed for high-performance and scalability.
+         --Amazon Redshift: Data warehouse service designed for big data analytics.
+
+     4.Networking Services:
+        --Amazon VPC (Virtual Private Cloud): Enables you to create a private network within the AWS cloud.
+        --Amazon Route 53: Scalable DNS and domain name registration service.
+        --AWS Direct Connect: Provides a dedicated network connection from your premises to AWS.
+
+     5.Security and Identity:
+          --AWS IAM (Identity and Access Management): Manages access to AWS services and resources securely.
+          --AWS KMS (Key Management Service): Manages cryptographic keys for your applications and data.
+         
+          
+   
+       
+
    
     
          
