@@ -107,35 +107,35 @@ Here's a simple breakdown of how DNS works:
   # 15.VPN(Virtual Private Network)
   A VPN, or Virtual Private Network, is a service that creates a secure, encrypted connection over aless secure network, such as the internet. It allows you to access the internet as if you were connected to a private network, providing privacy and security. Here's how it works and why you might use it:
  
-  1.Encryption:When you connect to a VPN, your internet traffic is encrypted, meaning that the data you send and receive is scrambled and unreadable to anyone who might intercept it. This helps protect your data from hackers, especially on public Wi-Fi networks.
+ ** 1.Encryption:**When you connect to a VPN, your internet traffic is encrypted, meaning that the data you send and receive is scrambled and unreadable to anyone who might intercept it. This helps protect your data from hackers, especially on public Wi-Fi networks.
 
-  2.IP Masking: A VPN hides your real IP address and replaces it with one from the VPN server. This can make it harder for websites, advertisers, and other parties to track your online activities and identify your location.
+**  2.IP Masking: **A VPN hides your real IP address and replaces it with one from the VPN server. This can make it harder for websites, advertisers, and other parties to track your online activities and identify your location.
 
-  3.Secure Access: VPNs provide secure access to your network resources, which can be useful for businesses allowing remote employees to connect to internal systems securely.
+ ** 3.Secure Access: **VPNs provide secure access to your network resources, which can be useful for businesses allowing remote employees to connect to internal systems securely.
 
   # 16.FRONTEND,BACKEND AND API(Application Programming Interface)
   In web development, the terms frontend, backend, and API refer to different aspects of building and   managing applications. Here’s a breakdown of each:
 
    # FRONTEND:
        Frontend refers to the client-side of a web application. It encompasses everything that users interact with directly in their web browsers. This includes:
-            -Design and Layout: The visual aspects of a website or application, including the layout,colors, fonts, and images.
-            -User Interface (UI): The components that users interact with, such as buttons, forms, and navigation menus.
-            -Technologies: Frontend development primarily involves languages and frameworks like HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. Frameworks and libraries like React, Angular, and Vue.js are commonly used to build interactive and dynamic user interfaces.
+            **-Design and Layout: **The visual aspects of a website or application, including the layout,colors, fonts, and images.
+           ** -User Interface (UI):** The components that users interact with, such as buttons, forms, and navigation menus.
+            **-Technologies: **Frontend development primarily involves languages and frameworks like HTML (Hypertext Markup Language), CSS (Cascading Style Sheets), and JavaScript. Frameworks and libraries like React, Angular, and Vue.js are commonly used to build interactive and dynamic user interfaces.
 
  # BACKEND:
       Backend refers to the server-side of a web application. It involves everything that happens on the server and is responsible for managing and processing data. Key aspects include:
-                 --Server: The hardware or software that provides services, resources, or data to other computers over a network.
-                 --Database: Where data is stored, retrieved, and managed. Common databases include MySQL, PostgreSQL, and MongoDB.
-                 --Server-Side Logic: The code that runs on the server, handling requests from the frontend, processing data, and sending responses. This includes server-side languages like Python, Ruby, Java, PHP, and Node.js.
-                 --Authentication: Managing user login, registration, and security.
-API.
+                ** --Server: **The hardware or software that provides services, resources, or data to other computers over a network.
+                ** --Database:** Where data is stored, retrieved, and managed. Common databases include MySQL, PostgreSQL, and MongoDB.
+                 **--Server-Side Logic:** The code that runs on the server, handling requests from the frontend, processing data, and sending responses. This includes server-side languages like Python, Ruby, Java, PHP, and Node.js.
+                 **--Authentication: **Managing user login, registration, and security.
+
 
 # API:
     API stands for Application Programming Interface. It is a set of rules and protocols that allows different software applications to communicate with each other. APIs can be used to:
 
-        --Connect Frontend and Backend: APIs often serve as the bridge between the frontend (client-side) and backend (server-side). For instance, when you submit a form on a website, the frontend sends a request to the backend via an API, which processes the request and sends back a response.
-        --Access External Services: APIs enable applications to interact with third-party services or data sources. For example, a weather app might use an API to fetch weather data from an external weather service.
-        --Standardize Communication: APIs provide a standardized way for different software components or systems to interact, regardless of their underlying technology.
+       ** --Connect Frontend and Backend:** APIs often serve as the bridge between the frontend (client-side) and backend (server-side). For instance, when you submit a form on a website, the frontend sends a request to the backend via an API, which processes the request and sends back a response.
+        **--Access External Services: **APIs enable applications to interact with third-party services or data sources. For example, a weather app might use an API to fetch weather data from an external weather service.
+        **--Standardize Communication: **APIs provide a standardized way for different software components or systems to interact, regardless of their underlying technology.
 
   REST (Representational State Transfer)and GraphQL are common API design styles. REST APIs use HTTP requests to interact with resources, while GraphQL allows clients to request specific data and aggregate results from multiple sources.
 
@@ -146,22 +146,22 @@ API.
      -- Function: NICs facilitate communication between a computer and a network. They handle the process of sending and receiving data packets over the network, making it possible for the device to access network resources, such as the internet or shared files.   
 
   #TYPES:
-   --Wired NICs:These connect via Ethernet cables and are typically used in local area networks (LANs). They are often built into the motherboard of a computer but can also be installed as a separate expansion card.
+  ** --Wired NICs:**These connect via Ethernet cables and are typically used in local area networks (LANs). They are often built into the motherboard of a computer but can also be installed as a separate expansion card.
 
-   --Wireless NICs: These connect via Wi-Fi and allow devices to connect to wireless networks. They are commonly found in laptops and some desktop computers, and can also be installed as a separate card or USB adapter.
+   **--Wireless NICs: **These connect via Wi-Fi and allow devices to connect to wireless networks. They are commonly found in laptops and some desktop computers, and can also be installed as a separate card or USB adapter.
 
-   --Components: A NIC typically includes a network port (like an Ethernet port for wired connections), and sometimes LEDs that indicate network activity and connection status. Inside, it has a chip that handles data transmission and reception.
+  ** --Components:** A NIC typically includes a network port (like an Ethernet port for wired connections), and sometimes LEDs that indicate network activity and connection status. Inside, it has a chip that handles data transmission and reception.
 
-   --Configuration: NICs usually come with drivers that need to be installed on the computer. These drivers allow the operating system to communicate with the NIC and configure it correctly.
+ **  --Configuration:** NICs usually come with drivers that need to be installed on the computer. These drivers allow the operating system to communicate with the NIC and configure it correctly.
 
-   --Speed: NICs come in various speeds, such as 10/100/1000 Mbps (Gigabit Ethernet) for wired connections, and support various Wi-Fi standards for wireless connections (e.g., 802.11n, 802.11ac, or the newer 802.11ax).
+ **  --Speed: **NICs come in various speeds, such as 10/100/1000 Mbps (Gigabit Ethernet) for wired connections, and support various Wi-Fi standards for wireless connections (e.g., 802.11n, 802.11ac, or the newer 802.11ax).
 
 # INTERNET PACKET
     An Internet packet, often just called a "packet," is a small unit of data transmitted over a network. When you send or receive information over the Internet, it is broken down into packets to ensure efficient and reliable delivery. Here’s a breakdown of what an Internet packet typically involves:
 
 # Components of an Internet Packet:
 
-   1.Header:
+  ** 1.Header:**
 
        --Source IP Address: The address of the device that is sending the packet.
        --Destination IP Address: The address of the device that is receiving the packet.
@@ -169,7 +169,7 @@ API.
        --Protocol Information: Specifies the protocol being used, such as TCP (Transmission Control Protocol) or UDP (User Datagram Protocol).
        --Checksum: A value used for error-checking to ensure the data hasn’t been corrupted during transmission.
 
-   2.Payload:
+ **  2.Payload:**
           This is the actual data being transmitted, such as part of an email, a webpage, or a file. It’s the content that the packet carries from the sender to the receiver.
 
 
@@ -177,30 +177,30 @@ API.
     Amazon Web Services (AWS) is a comprehensive and widely adopted cloud computing platform provided by Amazon. It offers a broad range of cloud services, including computing power, storage options, and databases, among others, all delivered over the internet. AWS allows individuals and organizations to use these resources on a pay-as-you-go basis, which means you only pay for what you use.
 
 # CORE SERVICES:
-     1.Compute Services:
+    ** 1.Compute Services:**
           --Amazon EC2 (Elastic Compute Cloud):
                Provides resizable virtual servers (instances) that can be used for a variety of applications.
           --AWS Lambda: Allows you to run code in response to events without provisioning or managing servers (serverless computing).
           --Amazon ECS (Elastic Container Service) and EKS (Elastic Kubernetes Service):
           Manage containerized applications using Docker and Kubernetes.
 
-     2.Storage Services:
+     **2.Storage Services:**
           --Amazon S3 (Simple Storage Service):
                Scalable object storage for storing and retrieving any amount of data.
           --Amazon EBS (Elastic Block Store): Provides block-level storage volumes for use with EC2 instances.
           --Amazon Glacier: Low-cost cloud storage service for data archiving and long-term backup.
 
-     3.Database Services:
+     ****3.Database Services:**
          --Amazon RDS (Relational Database Service): Managed relational database service supporting multiple database engines (MySQL, PostgreSQL, MariaDB, Oracle, and SQL Server).
          --Amazon DynamoDB: Managed NoSQL database service designed for high-performance and scalability.
          --Amazon Redshift: Data warehouse service designed for big data analytics.
 
-     4.Networking Services:
+   **  4.Networking Services:**
         --Amazon VPC (Virtual Private Cloud): Enables you to create a private network within the AWS cloud.
         --Amazon Route 53: Scalable DNS and domain name registration service.
         --AWS Direct Connect: Provides a dedicated network connection from your premises to AWS.
 
-     5.Security and Identity:
+    ** 5.Security and Identity:**
           --AWS IAM (Identity and Access Management): Manages access to AWS services and resources securely.
           --AWS KMS (Key Management Service): Manages cryptographic keys for your applications and data.
          
